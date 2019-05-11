@@ -126,3 +126,6 @@ Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello
 ```
 
 **计算机最擅长干的活就是重复劳动！** 我每想到此后一生要从事机械的重复劳动，就有点不想活的意思了。人是最具创造性的动物，当然也是最想懒惰的动物。**懒惰使人类进步！**  
+
+
+> p8

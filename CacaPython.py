@@ -10,7 +10,14 @@ programming_for_kids
 
 #pront Hello World,Caca.
 
-print (8+5)
-print (31*2)
-print (31/3)
+#print (8+5)
+#print (31*2)
+#print (31/3)
+
+#print (2345 * 6789)
+#
+#print (1234567898765432123456789 * 9876543212345678987654321)
+#print ("Hello " * 20)
+
+
 
