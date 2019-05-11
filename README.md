@@ -10,4 +10,3 @@ young girl lean python 少女学python
 
 ### 第002天的成绩
 玩两个好玩的游戏（python编写）
-
