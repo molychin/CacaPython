@@ -1,11 +1,11 @@
-"""
+```
 Created on Sat May 11 23:17:01 2019  
 @author: molychin@qq.com  
 Teach Your Kids to Code  
-"""  
+```  
 
 ---  
-## Teach Your Kids to Code
+## **Teach Your Kids to Code**
 
 ![](res/2019-5-12-12-22-54.png)
 
@@ -19,7 +19,7 @@ Computer programming, or coding, is a crucial skill every child should be learni
 你对（不久）将来人类和计算机的关系有什么看法？  
 你觉得计算机（编程）对现在的人是必备的技能吗？  
 你对学习计算机语言（编程）有兴趣吗？
-- [x]有兴趣 
+- [x]有兴趣
 - [x]没有兴趣
 
 
