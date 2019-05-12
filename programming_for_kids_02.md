@@ -25,10 +25,9 @@ Well, that’s true. But almost all programs that do anything useful or fun have
 ![](res/2019-5-12-10-46-21.png)
 
 如何让计算机记住你告诉他的信息呢？**神奇的“=”！**  
-```
-Teacher = "Mr. Morton"
-print (Teacher)
-输出：
+```python
+>>>Teacher = "Mr. Morton"
+>>>print (Teacher)
 Mr. Morton
 ```
 “=”的意思连小学生都知道，就是左右两边的值相等。**但是**，来到计算机的世界，这等号的含义就会有所不同，毕竟这是计算机的语言。等号的含义是将等号右边的值给予（复制到）左边的变量。也就是说让左边的变量记住右边的值。  
@@ -36,19 +35,18 @@ Mr. Morton
 
 ![](res/2019-5-12-11-46-02.png)
 
-```
-print ("53 + 28")
-输出：53 + 28
-
-print (53 + 28)
-输出：81
+```python
+>>>print ("53 + 28")
+53 + 28
+>>>print (53 + 28)
+81
 ```
 当打印输出时，放在引号内的东西会按照原样输出，否则的话，按照表达式的值输出。  
 >名词解释：算术表达式、内存、变量、赋值、字符串
 
 ![](res/2019-5-12-12-02-07.png)
 
-```
+```python
 >>> MyTeacher = "Mrs. Goodyear"
 >>> YourTeacher = MyTeacher
 >>> MyTeacher

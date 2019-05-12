@@ -72,7 +72,7 @@ for x in range(360):
 
 ![](res/2019-5-12-16-19-41.png)
 
->好好研究turtle的图形生成法则，可以找出很多（自然界）图形的生成规律【其实没有看上去那么复杂】。整理出一片文章专门讨论这个问题。  
+>好好研究turtle的图形生成法则，可以找出很多（自然界）图形的生成规律【其实没有看上去那么复杂】。整理出一篇文章来专门讨论这个问题。  
 
 | 1 | 2 | 3 |
 |---|---|---|
@@ -80,10 +80,11 @@ for x in range(360):
 |![](res/2019-5-12-16-23-13d.png)|![](res/2019-5-12-16-23-13e.png)|![](res/2019-5-12-16-19-41.png)|
 
 
+To begin coding, we have to speak the computer’s language. Computers need step-by-step instructions, and they can only understand certain languages. Just like a person from Russia might not be able to understand English, computers only understand languages made for them. Computer code is written in programming languages like Python, C++, Ruby, or JavaScript. These languages allow us to “talk” to our computer and give it commands. Think about when you teach a dog to do tricks—when you give the “sit” command, he sits; when you say “speak,” he barks. The dog understands those simple commands, but not much else you say.
 
+要开始编码，我们必须说计算机的语言。计算机需要循序渐进的指令，它们只能理解某些语言。就像一个来自俄罗斯的人可能不懂英语一样，计算机只懂为他们创造的语言。计算机代码是用Python、C++、Ruby或JavaScript等编程语言编写的。这些语言允许我们与计算机“对话”并给它命令。想想当你教一只狗做游戏的时候，当你发出“坐”的命令时，它会坐着；当你说“叫”的时候，它会叫。狗能理解这些简单的命令，但你说的不多。
 
-
-
+![](res/2019-5-12-21-32-19.png)
 
 
 

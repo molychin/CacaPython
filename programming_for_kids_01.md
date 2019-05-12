@@ -60,9 +60,11 @@ For kids especially, one of the most fun parts of using a computer is playing ga
 
 ### 第1个小目标
 #### ■学会几种在屏幕上输出结果的方法
-```
-print ("Hello World , Caca.")  
-print ("欢迎你来到计算机的世界，小姑娘。")
+```python
+>>>print ("Hello World , Caca.")  
+>>>print ("欢迎你来到计算机的世界，小姑娘。")
+Hello World , Caca.
+欢迎你来到计算机的世界，小姑娘。
 ```
 
 ![](res/0-14-58.png)
@@ -71,8 +73,8 @@ print ("欢迎你来到计算机的世界，小姑娘。")
 > 这里会涉及到几个相似的概念：计算机语言、软件、程序、指令和代码。
 
 如果刚才输入的代码不小心搞成是这样的：
-```
-pront Hello World,Caca.
+```python
+>>>pront Hello World,Caca.
 ```
 ![](res/0-45-54.png)
 
@@ -83,12 +85,10 @@ pront Hello World,Caca.
 
 ### 第2个小目标  
 #### ■让计算机做几个小学低年级的算术运算
-```
-print (8+5)
-print (31*2)
-print (31/3)
-
-输出：
+```python
+>>>print (8+5)
+>>>print (31*2)
+>>>print (31/3)
 13
 62
 10.333333333333334
@@ -99,18 +99,16 @@ print (31/3)
 另外，计算机就这点本事吗？这么简单的计算，我心算就可以了。`【什么，心算有难度？为英国佬心痛三分钟。】`  
 ![](res/1-06-53.png)
 
-```
-print (2345 * 6789)
-输出：
+```python
+>>>print (2345 * 6789)
 15920205
 ```
 ![](res/2019-5-12-1-07-22.png)  
 来个难些的，这个用计算器不就可以了吗，何必计算机呢！  
 > 术语：计算机和计算器的区别?
 
-```
-print (1234567898765432123456789 * 9876543212345678987654321)
-输出：
+```python
+>>>print (1234567898765432123456789 * 9876543212345678987654321)
 12193263200731596000609652202408166072245112635269
 ```
 ![](res/2019-5-12-1-14-21.png)  
@@ -118,9 +116,8 @@ print (1234567898765432123456789 * 9876543212345678987654321)
 > 科普：计算机当初被发明出来，的确不是给一般老百姓买菜用的，更不是用来浏览新闻、购物、游戏等等日常活动。当初就是给工程师和科学家用于科学计算的：）
 
 再来个神奇的！可以看出的确可以省不少力。
-```
-print ("Hello " * 20)
-输出：
+```python
+>>>print ("Hello " * 20)
 Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello
 Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello
 ```
