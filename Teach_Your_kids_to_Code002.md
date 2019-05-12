@@ -51,6 +51,8 @@ for x in range(200):
 ```
 ![](res/2019-5-12-22-59-00.png)
 
+![](res/2019-5-13-0-18-11.png)
+
 This is also a nice visual to help you understand how being off by just one number can drastically change the result of your program.  
 这也是一个很好的利用视觉图像来帮助你理解因一个数字的微小改变而如何大幅度影响你程序结果的例子。
 
@@ -66,8 +68,23 @@ This is also a nice visual to help you understand how being off by just one numb
 
 >大胆的猜想：我们真的很难预料这些简单的代码最终会绘制出如此美丽、协调的图形。更进一步，我们可以对比自然界中有不少类似的生物形态出现。很容易推测，这些神奇的自然形态是否也是由这些简单的生成规则来支配的。
 
+#### 使用更多控制变量的绘图例子  
+```python
+# ColorSpiral.py
+import turtle
+t = turtle.Pen()
+turtle.Turtle().screen.delay(0)   #绘画没有延迟
+turtle.bgcolor("black")
 
-
+# You can choose between 2 and 6 sides for some cool shapes!
+sides = 6
+colors = ["red", "yellow", "blue", "orange", "green", "purple"]
+for x in range(300):
+    t.pencolor(colors[x%sides])
+    t.forward(x * 2/sides + x)
+    t.left(360/sides + 1)
+    t.width(x*sides/200)
+```
 
 
 
