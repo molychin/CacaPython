@@ -1,7 +1,7 @@
-"""
-Created on Sat May 11 23:17:01 2019
-@author: molychin@qq.com
-programming_for_kids
+"""  
+Created on Sat May 11 23:17:01 2019  
+@author: molychin@qq.com  
+programming_for_kids  
 """
 
 ## Computer Programming for Kids and Other Beginners-001

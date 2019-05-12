@@ -5,7 +5,7 @@ Teach Your Kids to Code
 ```  
 
 ---  
-## **Teach Your Kids to Code**
+## **Teach Your Kids to Code 001**
 
 ![](res/2019-5-12-12-22-54.png)
 
@@ -23,8 +23,8 @@ We are at an unprecedented time in history: never before could billions of peopl
 你对（不久）将来人类和计算机的关系有什么看法？  
 你觉得计算机（编程）对现在的人是必备的技能吗？  
 你对学习计算机语言（编程）有兴趣吗？
-- [x]有兴趣
-- [x]没有兴趣
+- [ ]有兴趣
+- [ ]没有兴趣
 
 
 **Coding Is Fun**  
@@ -86,16 +86,16 @@ To begin coding, we have to speak the computer’s language. Computers need step
 
 ![](res/2019-5-12-21-32-19.png)
 
+#### 一个可以输出你姓名的小程序
+```python
+# YourName.py
+name = input("What is your name?\n")
+print("Hi, ", name)
+```
+
+Learning to code is like learning to solve puzzles, riddles, or brainteasers. You start with a problem, apply what you know, and learn new things along the way. By the time you finish, you’ve exercised your mind, and you’ve answered a question. Hopefully, you’ve also had fun.
+
+学习编码就像学习解决难题、谜语或脑筋急转弯。你从一个问题开始，运用你所掌握的知识，然后一路学习新事物。当你完成的时候，你已经锻炼了你的头脑，并且回答了一个问题。希望你也玩得开心。
 
 
-
-
-
-
-
-
-
-
-
-
-continue
+>end
