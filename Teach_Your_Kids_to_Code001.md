@@ -27,7 +27,7 @@ We are at an unprecedented time in history: never before could billions of peopl
 - [x]没有兴趣
 
 
-**Coding Is Fun**
+**Coding Is Fun**  
 Technology is becoming a part of everyday life. Every company, charitable organization, and cause can benefit from technology.There are apps to help you buy, give, join, play, volunteer, connect,share—just about anything you can imagine.
 Have your children wanted to build their own level for their favorite video game? Coders do that! What about create their own phone app? They can bring that idea to life by programming it on a computer! Every program, game, system, or app they’ve ever seen was coded using the same programming building blocks they’ll learn in this book. When kids program, they take an active role in technology—they’re not just having fun, they’re making something fun!
 
@@ -54,6 +54,37 @@ For example, I wrote some code to make a colorful drawing (Figure 2) and then we
 例如，我编写了一些代码来绘制一个彩色的图形（图2），然后返回，在这里和那里更改了一些数字，并尝试再次运行该程序。这给了我另一幅完全不同但同样令人惊叹的画。我又回去了，换了一些其他的数字，得到了另一幅美丽独特的画。看看你只需要四处玩玩就能做什么？
 
 ![](res/2019-5-12-13-56-52.png)
+
+##### 画一个很漂亮的螺旋六边形
+```python
+#NiceHexSpiral.py
+import turtle   
+colors=['red', 'purple', 'blue',
+        'green', 'yellow', 'orange']
+t=turtle.Pen()
+turtle.bgcolor('black')
+for x in range(360):
+    t.pencolor(colors[x%6])
+    t.width(x/100+1)
+    t.forward(x)        
+    t.left(59)
+```
+
+![](res/2019-5-12-16-19-41.png)
+
+>好好研究turtle的图形生成法则，可以找出很多（自然界）图形的生成规律【其实没有看上去那么复杂】。整理出一片文章专门讨论这个问题。  
+
+| 1 | 2 | 3 |
+|---|---|---|
+|![](res/2019-5-12-16-23-13a.png)|![](res/2019-5-12-16-23-13b.png)|![](res/2019-5-12-16-23-13c.png)|
+|![](res/2019-5-12-16-23-13d.png)|![](res/2019-5-12-16-23-13e.png)|![](res/2019-5-12-16-19-41.png)|
+
+
+
+
+
+
+
 
 
 
