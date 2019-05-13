@@ -37,6 +37,45 @@ Syntax is the set of rules we follow in building sentences or statements in a la
 
 ![](res/2019-05-13-15-28-04.png)
 
+详细了解计算机的变量和赋值的概念：x=12;x=x-7  
+特别是 **x=x-7** ，这个不是我们在学习数学时所掌握的等式`【如果将这个式子作为数学中的含义来理解的话，那么这个是恒不等式，因为去除等式两边的x的话，0！=7，即0永远都不等于7。】`，这是一个典型的 **赋值语句**，将等号右边表达式的值赋给左边的变量。
+
+#### ■一个计算披萨价格的小程序
+```python
+# AtlantaPizza.py â€“ a simple pizza cost calculator
+# Ask the person how many pizzas they want, get the # with eval()
+number_of_pizzas = eval( input("How many pizzas do you want: ") )
+# Ask for the menu cost of each pizza
+cost_per_pizza = eval( input("How much does each pizza cost: ") )
+# Calculate the total cost of the pizzas as our subtotal
+subtotal = number_of_pizzas * cost_per_pizza
+# Calculate the sales tax owed, at 8% of the subtotal
+tax_rate = 0.08 # we store 8% as the decimal value 0.08
+sales_tax = subtotal * tax_rate
+# Add the sales tax to the subtotal for the final total
+total = subtotal + sales_tax
+
+# Show the user the total amount due, including tax
+print("The total cost is $", total)
+print("This includes $", subtotal, "for the pizza and")
+print("$", sales_tax, "in sales tax.")
+```
+
+#### ■若果你喜欢我，请唤我一百遍
+```python
+# SayMyName.py - prints a screen full of the user's name
+# Ask the user for their name
+name = input("What is your name? ")
+# Print their name 100 times
+for x in range(100):
+    # Print their name followed by a space, not a new line
+    print(name, end = " ")
+```
+![](res/2019-05-13-16-00-16.png)
+
+
+
+
 
 
 
