@@ -97,7 +97,7 @@ for x in range(100):
 
 特点：可以对输入的文字做花式处理并显示。
 
-#### 可以定制悬臂数量的螺旋图
+#### ■可以定制悬臂数量的螺旋图
 ```python
 # ColorSpiralInput.py
 import turtle                       # Set up turtle graphics
@@ -107,26 +107,26 @@ turtle.Turtle().screen.delay(0)   #绘画没有延迟
 # Set up a list of any 8 valid Python color names
 colors = ["red", "yellow", "blue", "green", "orange", "purple", "white", "gray"]
 # Ask the user for the number of sides, between 1 and 8, with a default of 4
-sides = int(turtle.numinput("Number of sides",
-                            "How many sides do you want (1-8)?", 4, 1, 8))
+#sides = int(turtle.numinput("Number of sides",
+#                            "How many sides do you want (1-8)?", 4, 1, 8))
+sides = turtle.numinput("Number of sides","How many sides do you want (1-8)?",4)
 # Draw a colorful spiral with the user-specified number of sides
 for x in range(360):
-    t.pencolor(colors[x % sides])   # Only use the right number of colors
+    t.pencolor(colors[int(x % sides)])   # Only use the right number of colors
     t.forward(x * 2 / sides + x)    # Change the size to match number of sides
     t.left(360 / sides + 1)         # Turn 360 degrees / number of sides, plus 1
     t.width(x * sides / 200)        # Make the pen larger as it goes outward
 ```
-只能接受1-8之间的悬臂数  
 
 |sides=2|sides=3|
-|---|---|
+|:---:|:---:|
 |![](res/2019-5-13-19-23-15-2.png)|![](res/2019-5-13-19-23-15-3.png)|
 |sides=4|sides=5|
 |![](res/2019-5-13-19-23-15-4.png)|![](res/2019-5-13-19-23-15-5.png)|
 |sides=6|sides=7|
 |![](res/2019-5-13-19-23-15-6.png)|![](res/2019-5-13-19-23-15-7.png)|
-|sides=8|sides=?|
-|![](res/2019-5-13-19-23-15-8.png)|![](res/)|
+|sides=8|sides=3.5|
+|![](res/2019-5-13-19-23-15-8.png)|![](res/2019-5-13-19-23-15-3.5.png)|
 
 
 
