@@ -61,15 +61,15 @@ Mr. Morton
 >了解变量的命名规则【不同的代码风格】  
 变量名大小写敏感【至少Python是这样的，当然也有一些计算机语言是不区分大小写的。但总体上来说，这不是一种好的习惯。】
 
+跨越多行的长字符串，用三个连续的引号包含：
+```python
+long_string = """Sing a song of sixpence, a pocket full of rye,
+Four and twenty blackbirds baked in a pie.
+When the pie was opened the birds began to sing.
+Wasn't that a dainty dish to set before the king?"""
+```
 
 
 
 
-
-
-P23
-
-
-
-
-sdfsdfgdfg
+>end  P28
