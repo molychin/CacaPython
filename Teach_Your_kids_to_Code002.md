@@ -83,6 +83,7 @@ for x in range(300):
     t.pencolor(colors[x%sides])
     t.forward(x * 2/sides + x)
     t.left(360/sides + 1)
+    #t.left(90)
     t.width(x*sides/200)
 ```
 
