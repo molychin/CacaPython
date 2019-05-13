@@ -128,22 +128,26 @@ for x in range(360):
 |sides=8|sides=3.5|
 |![](res/2019-5-13-19-23-15-8.png)|![](res/2019-5-13-19-23-15-3.5.png)|
 
+#### ■神奇的万能作业帮手
+```python
+# MathHomework.py
+print("MathHomework.py")
+# Ask the user to enter a math problem
+problem = input("Enter a math problem, or 'q' to quit: ")
+# Keep going until the user enters 'q' to quit
+while (problem != "q"):
+    # Show the problem, and the answer using eval()
+    print("The answer to ", problem, "is:", eval(problem) )
+    # Ask for another math problem
+    problem = input("Enter another math problem, or 'q' to quit: ")
+    # This while loop will keep going until you enter 'q' to quit
+```
+![](res/2019-5-13-20-38-16.png)  
+
+**说明：** 可以轻松完成加减乘除、求模、乘方等基本算术运算。 使用“q”退出程序。
+
+![](res/2019-5-13-20-40-16.png)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->continue
+>p50. end
