@@ -73,6 +73,71 @@ for x in range(100):
 ```
 ![](res/2019-05-13-16-00-16.png)
 
+特点：计算机可以接受用户输入的文字。
+
+#### ■让你的名字在风中旋转
+```python
+# SpiralMyName.py - prints a colorful spiral of the user's name
+import turtle               # Set up turtle graphics
+t = turtle.Pen()  
+turtle.bgcolor("black")
+colors = ["red", "yellow", "blue", "green"]
+# Ask the user's name using turtle's textinput pop-up window
+your_name = turtle.textinput("Enter your name", "What is your name?")
+# Draw a spiral of the name on the screen, written 100 times
+for x in range(100):
+    t.pencolor(colors[x%4]) # Rotate through the four colors
+    t.penup()               # Don't draw the regular spiral lines
+    t.forward(x*4)          # Just move the turtle on the screen
+    t.pendown()             # Write the user's name, bigger each time
+    t.write(your_name, font = ("Arial", int( (x + 4) / 4), "bold") )
+    t.left(92)              # Turn left, just as in our other spirals
+```
+![](res/2019-5-13-18-59-49.png)
+
+特点：可以对输入的文字做花式处理并显示。
+
+#### 可以定制悬臂数量的螺旋图
+```python
+# ColorSpiralInput.py
+import turtle                       # Set up turtle graphics
+t = turtle.Pen()
+turtle.bgcolor("black")
+turtle.Turtle().screen.delay(0)   #绘画没有延迟
+# Set up a list of any 8 valid Python color names
+colors = ["red", "yellow", "blue", "green", "orange", "purple", "white", "gray"]
+# Ask the user for the number of sides, between 1 and 8, with a default of 4
+sides = int(turtle.numinput("Number of sides",
+                            "How many sides do you want (1-8)?", 4, 1, 8))
+# Draw a colorful spiral with the user-specified number of sides
+for x in range(360):
+    t.pencolor(colors[x % sides])   # Only use the right number of colors
+    t.forward(x * 2 / sides + x)    # Change the size to match number of sides
+    t.left(360 / sides + 1)         # Turn 360 degrees / number of sides, plus 1
+    t.width(x * sides / 200)        # Make the pen larger as it goes outward
+```
+只能接受1-8之间的悬臂数  
+
+|sides=2|sides=3|
+|---|---|
+|![](res/2019-5-13-19-23-15-2.png)|![](res/2019-5-13-19-23-15-3.png)|
+|sides=4|sides=5|
+|![](res/2019-5-13-19-23-15-4.png)|![](res/2019-5-13-19-23-15-5.png)|
+|sides=6|sides=7|
+|![](res/2019-5-13-19-23-15-6.png)|![](res/2019-5-13-19-23-15-7.png)|
+|sides=8|sides=?|
+|![](res/2019-5-13-19-23-15-8.png)|![](res/)|
+
+
+
+
+
+
+
+
+
+
+
 
 
 
