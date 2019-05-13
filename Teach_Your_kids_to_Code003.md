@@ -7,7 +7,7 @@ Teach Your Kids to Code
 ---
 ## **Teach Your Kids to Code 003**
 ### Numbers aNd Variables:PythoN does the math
-
+![](res/2019-5-13-20-42-45.png)
 ```python
 #ThankYou.py
 my_name = "Bryson"
