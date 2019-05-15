@@ -28,7 +28,14 @@ t.circle(100) # This makes our fourth circle (pointing east)
 代码虽然比较简单，但是好像有重复之嫌。程序员是最喜欢 **偷懒** 的人群，那么可以作出怎样的改变来 **简化** 这个小程序呢？`【例如，我们要考虑如果需要画几百个圆来构成一幅图形，我们就不能用上面这样原始的笨方法了，下面就有改进的示例。】`使用 **循环语句** 是个很好的选择！
 
 
-
+```python
+# Rosette6.py
+import turtle
+t = turtle.Pen()
+for x in range(6):
+    t.circle(100)
+    t.left(60)
+```
 
 
 
