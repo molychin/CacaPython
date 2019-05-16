@@ -91,9 +91,9 @@ for m in range(100):
 |edges=2|edges=3|
 |:---:|:---:|
 |![](res/2019-5-16-19-15-45.png)|![](res/2019-5-16-19-13-00.png)|
-|edges=2|edges=3|
+|edges=4|edges=5|
 |![](res/2019-5-16-18-59-17.png)|![](res/2019-5-16-19-16-47.png)|
-|edges=2|edges=3|
+|edges=6|edges=?|
 |![](res/2019-5-16-19-17-46.png)|![]()|
 
 
