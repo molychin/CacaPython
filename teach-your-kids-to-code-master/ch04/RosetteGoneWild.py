@@ -1,6 +1,7 @@
 # RosetteGoneWild.py
 import turtle
 t = turtle.Pen()
+turtle.Turtle().screen.delay(0)   #绘画没有延迟
 # Ask the user for the number of circles in their rosette, default to 6
 number_of_circles = int(turtle.numinput("Number of circles",
                                         "How many circles in your rosette?", 6))

@@ -38,17 +38,21 @@ for x in range(6):
 ```
 
 
+```python
+# RosetteGoneWild.py
+import turtle
+t = turtle.Pen()
+# Ask the user for the number of circles in their rosette, default to 6
+number_of_circles = int(turtle.numinput("Number of circles",
+                                        "How many circles in your rosette?", 6))
+for x in range(number_of_circles):
+    t.circle(100)
+    t.left(360/number_of_circles)
+```
 
-
-
-
-
-
-
-
-
-
-
+|edges=16|edges=200|
+|:---:|:---:|
+|![](res/2019-05-16-14-49-59.png)|![](res/2019-05-16-15-00-57.png)|
 
 
 
