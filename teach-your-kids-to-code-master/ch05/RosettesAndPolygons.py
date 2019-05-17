@@ -1,12 +1,14 @@
 # RosettesAndPolygons.py - a spiral of polygons AND rosettes!
 import turtle
 t = turtle.Pen()
+turtle.Turtle().screen.delay(0)   #绘画没有延迟
 # Ask the user for the number of sides, default to 4
 sides = int(turtle.numinput("Number of sides",
             "How many sides in your spiral?", 4))
 # Our outer spiral loop for polygons and rosettes, from size 5 to 75
 for m in range(5,75):   
-    t.left(360/sides + 5)
+#    t.left(360/sides + 5)
+    t.left(360/sides+2)
     t.width(m//25+1)
     t.penup()        # Don't draw lines on spiral
     t.forward(m*4)   # Move to next corner
@@ -22,6 +24,12 @@ for m in range(5,75):
             t.forward(m)
             t.right(360/sides)
 
-   
+#    for n in range(sides):
+#        if (m%2==0):
+#            t.circle(m)
+#        else:
+#            t.forward(m)          
+#            
+#        t.right(360/sides)
 
 

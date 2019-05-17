@@ -47,7 +47,68 @@ print("Okay, we're done!")
 |![](res/2019-5-16-20-16-43.png)|![](res/2019-5-16-22-33-03.png)|![](res/2019-5-16-22-42-00.png)|
 
 最初的几步：  
+left=89  
 ![](res/2019-5-16-22-46-52.png)
+
+
+```python
+# PolygonOrRosette.py
+import turtle
+t = turtle.Pen()
+# Ask the user for the number of sides or circles, default to 6
+number = int(turtle.numinput("Number of sides or circles",
+             "How many sides or circles in your shape?", 6))
+# Ask the user whether they want a polygon or rosette
+shape = turtle.textinput("Which shape do you want?",
+                         "Enter 'p' for polygon or 'r' for rosette:")
+for x in range(number):
+    if shape == 'r':        # User selected rosette
+        t.circle(100)
+    else:                   # Default to polygon
+        t.forward (150)
+    t.left(360/number)
+
+```
+
+
+```python
+# RosettesAndPolygons.py - a spiral of polygons AND rosettes!
+import turtle
+t = turtle.Pen()
+# Ask the user for the number of sides, default to 4
+sides = int(turtle.numinput("Number of sides",
+            "How many sides in your spiral?", 4))
+# Our outer spiral loop for polygons and rosettes, from size 5 to 75
+for m in range(5,75):   
+    t.left(360/sides + 2)
+    t.width(m//25+1)
+    t.penup()        # Don't draw lines on spiral
+    t.forward(m*4)   # Move to next corner
+    t.pendown()      # Get ready to draw
+    # Draw a little rosette at each EVEN corner of the spiral
+    if (m % 2 == 0):
+        for n in range(sides):
+            t.circle(m/3)
+            t.right(360/sides)
+    # OR, draw a little polygon at each ODD corner of the spiral
+    else:
+        for n in range(sides):
+            t.forward(m)
+            t.right(360/sides)
+
+```
+
+![](res/2019-05-17-11-23-10.png)
+
+![](res/2019-05-17-11-24-49.png)
+
+
+
+
+
+
+
+
 
 
 

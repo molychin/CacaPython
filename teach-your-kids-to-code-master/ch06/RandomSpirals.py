@@ -2,10 +2,11 @@
 import random
 import turtle
 t = turtle.Pen()
+turtle.Turtle().screen.delay(0)   #绘画没有延迟
 turtle.bgcolor("black")
 colors = ["red", "yellow", "blue", "green", "orange", "purple", 
           "white", "gray"]
-for n in range(50):
+for n in range(100):
     # Generate spirals of random sizes/colors at random locations
     t.pencolor(random.choice(colors))   # Pick a random color 
     size = random.randint(10,40)        # Pick a random spiral size
